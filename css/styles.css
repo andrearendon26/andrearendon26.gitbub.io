@@ -75,6 +75,13 @@
     scroll-behavior: smooth;
   }
 }
+.fondo {  
+   background-color: #dee2e6; 
+
+
+}
+
+
 
 body {
   margin: 0;
