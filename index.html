@@ -169,32 +169,25 @@
                         <!-- to get an API token!-->
                         <form id="contactForm" data-sb-form-api-token="API_TOKEN">
                             <!-- Name input-->
-                            <div class="">
-                                <input class="" id="" type="" placeholder="" data-sb-validations="" />
-                                <label for="name">Nombre: Andrea Rendon</label>
-                             <!--    <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>--> 
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
+                                <h3 for="name">Andrea Rendon</h3>
+                                <div class="invalid-feedback" data-sb-feedback="name:required"></div>
                             </div>
                             <!-- Email address input-->
-                            <div class="">
+                            <div class="form-floating mb-3">
                                 <input class="form-control" id="email" type="email" placeholder="" data-sb-validations="" />
-                                <label for="email">andrea20rendon@gmail.com</label>
-                                <!-- <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
-                                <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>--> 
+                                <label for="email">andrea20rendon@gmail.com</label>                                
+                                <div class="invalid-feedback" data-sb-feedback=""></div> 
                             </div>
                             <!-- Phone number input-->
-                            <div class="">
-                                <input class="form-control" id="phone" type="tel" placeholder="" data-sb-validations="" />
-                                <label for="phone">3228768021</label> />
-                                <div class=""> />
-                                <input class="form-control" id="Facebook" type="text" placeholder="" data-sb-validations="" />
-                                <label for="fa-facebook-f">Andrea Rendon</label> <a href="https://www.facebook.com/andrea.rendon.5095110/">Facebook</a>
-                                <div class=""> />
-                                <input class="form-control" id="Instagram" type="text" placeholder="" data-sb-validations="" />
-                                <label for="instagram">_rendon_26</label>
-                                <!-- <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>--> 
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
+                                <h3 for="name">3228768021</h3>
+                                <div class="invalid-feedback" data-sb-feedback="name:required"></div>
                             </div>
                             <!-- Message input-->
-                            <div class="">
+                            <div class="form-floating mb-3">
                                 <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required"></textarea>
                                 <label for="message">Message</label>
                                 <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
