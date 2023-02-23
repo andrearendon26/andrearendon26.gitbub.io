@@ -283,8 +283,8 @@ a > code {
 kbd {
   padding: 0.2rem 0.4rem;
   font-size: 0.875em;
-  color: #fff;
-  background-color: #212529;
+  color: #d63384;
+  background-color: #d63384;
   border-radius: 0.25rem;
 }
 kbd kbd {
